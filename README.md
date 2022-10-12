@@ -1,5 +1,5 @@
 # FrontEndBootCamp
 
 theme: jekyll-theme-minimal
-title: Octocat's homepage
+title: Site's homepage
 description: Bookmark this to keep an eye on my project updates!
