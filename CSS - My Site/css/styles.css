@@ -1,3 +1,13 @@
+
 body{
-  background-color: gold;
+  margin: 0;
+}
+h1{
+  margin-top: 0; 
+}
+
+
+div {
+  background-color: #E4f9f5;
+  margin: 0px;
 }
