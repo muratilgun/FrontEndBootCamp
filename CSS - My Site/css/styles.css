@@ -3,11 +3,28 @@ body{
   margin: 0;
 }
 h1{
-  margin-top: 0; 
+  margin-top: 0;
+}
+.div0 {
+  background-color: #E4f9f5;
+  width: 200px;
+height: 200px;
+border: 10px solid;
+padding: 20px;
 }
 
+.div1{
+  width: 200px;
+height: 200px;
+border: 20px solid;
+  background-color: red;
+  margin-left: 260px;
+}
+.div2{
+  width: 200px;
+height:  200px;
+  background-color: yellow;
+  border: 10px solid;
+  margin-left: 500px; 
 
-div {
-  background-color: #E4f9f5;
-  margin: 0px;
 }
