@@ -13,7 +13,8 @@ h1{
 h2{
   font-family: "Montserrat", serif;
 
-}
+
+   }
 h3{
   font-family: "Montserrat", serif;
 
@@ -25,14 +26,9 @@ h3{
 }
 
 .middle-container{
-  width: 200px;
-height: 200px;
-  background-color: red;
+
 }
 .bottom-container{
-  width: 200px;
-height:  200px;
-  background-color: yellow;
 
 }
 .pro{
