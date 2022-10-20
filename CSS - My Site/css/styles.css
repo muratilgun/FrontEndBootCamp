@@ -3,12 +3,13 @@ body{
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
-  font-size: 200%;
+  color:  #40514E;
+
 }
 h1{
   color:  #66BFBF;
   font-size: 5.625rem;
-  margin-top: 50px auto 0 auto;
+  margin: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
 }
 
@@ -17,42 +18,53 @@ h2{
   font-family: "Montserrat", serif;
   font-size: 2.5rem;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3{
   font-family: "Montserrat", serif;
   color: #11999E;
 }
-
+p{
+  line-height: 2;
+}
 hr{
-  border-style: none;
-  border-top-style: dotted;
-  border-color: #40514E;
-  border-width: 5px;
-  width: 5%;
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
 .first-p{
+  width: 30%;
   color: #40514E;
+  margin: auto;
 }
 
 .top-container{
   background-color: #EAF6F6;
   position: relative;
-  padding-top: 100px;
+  padding-top: 320px;
+  width: 1902px;
 }
 
 .middle-container{
-
+margin:100px 0;
 }
 .bottom-container{
   background-color: #66BFBF;
-  padding: 30px;
+  padding: 50px 0 20px;
 
 }
 .skill-row {
   width: 50%;
   margin:100px auto 100px auto;
+  text-align: left;
+}
+.skill-row2 {
+  width: 50%;
+  margin:200px auto 100px auto;
+  padding-bottom: 40px;
   text-align: left;
 }
 .code-image{
@@ -74,28 +86,43 @@ hr{
   clear: right;
 }
 
-
 .pro{
   text-decoration: underline;
 }
-
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
 .top-cloud{
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud{
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
 .footer-link{
-  text-decoration: none;
-  margin: 30px;
+  font-size: 1.5rem;
 }
 
+a{
+  color: #11999E;
+  font-family: "Montserrat", serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copy{
+  color: white;
+  font-size: 1.5rem;
+  padding: 20px 0px;
+}
 
 .btn-contact {
   background: #11cdd4;
