@@ -130,6 +130,15 @@ p{
   padding: 3% 2%;
 }
 
+/* Footer Section */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.social-icon{
+  margin: 20px 10px;
+}
 
 @media (max-width:1028px){
   #title{
@@ -139,4 +148,19 @@ p{
     position: static;
     transform: rotate(0);
   }
+}
+
+/* CTA Section */
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  padding: 7%;
+  text-align: center;
+}
+
+.cta-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 5.5rem;
+  line-height: 1.5;
 }
