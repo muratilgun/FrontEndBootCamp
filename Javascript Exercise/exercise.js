@@ -22,3 +22,23 @@ b= c;
 
 console.log("a is "+ a);
 console.log("b is "+ b);
+
+
+
+
+var gameLevel = 1;
+gameLevel = 2;
+gameLevel = 3;
+
+alert("Your level is currently: "+ gameLevel);
+
+
+
+
+alert("hello" + "world");
+
+
+var message = "Hello";
+var name = "Murat";
+
+alert(message + "there," + " "+ name);
