@@ -44,6 +44,14 @@ var name = "Murat";
 alert(message + "there," + " "+ name);
 
 
-var tweet = prompt("Compose your tweet:");
+// var tweet = prompt("Compose your tweet:");
 //var tweetCount = tweet.length;
-alert("You have written"+ tweet.length +" characters, you have "+ (140 - tweet.length) + " characters remaining.");
+// alert("You have written"+ tweet.length +" characters, you have "+ (140 - tweet.length) + " characters remaining.");
+//
+// var namee = "Murat";
+// namee.slice(0,1);
+
+
+ var tweet = prompt("Compose your tweet:");
+ // var tweetUnder140  = tweet.slice(0,140);
+ alert(tweet.slice(0,140));
