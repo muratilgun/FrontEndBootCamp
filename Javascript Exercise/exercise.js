@@ -64,3 +64,8 @@ var restOfName=  name.slice(1,name.length);
 restOfName = restOfName.toLowerCase();
 var capitalisedName=  upperCaseFirstChar + restOfName;
 alert("Hello" + capitalisedName);
+
+
+var dogAge =prompt("How old is your dog?");
+var humanAge = ((dogAge - 2) * 4) + 21;
+alert("Your dog is" + humanAge + "yers old in human years.");
