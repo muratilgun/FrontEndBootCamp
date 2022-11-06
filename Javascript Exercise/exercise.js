@@ -37,11 +37,11 @@ alert("Your level is currently: "+ gameLevel);
 
 alert("hello" + "world");
 
-
-var message = "Hello";
-var name = "Murat";
-
-alert(message + "there," + " "+ name);
+//
+// var message = "Hello";
+// var name = "Murat";
+//
+// alert(message + "there," + " "+ name);
 
 
 // var tweet = prompt("Compose your tweet:");
@@ -55,3 +55,12 @@ alert(message + "there," + " "+ name);
  var tweet = prompt("Compose your tweet:");
  // var tweetUnder140  = tweet.slice(0,140);
  alert(tweet.slice(0,140));
+
+
+var name = prompt("What is your name?");
+var firstChar = name.slice(0,1);
+var upperCaseFirstChar  = firstChar.toUpperCase();
+var restOfName=  name.slice(1,name.length);
+restOfName = restOfName.toLowerCase();
+var capitalisedName=  upperCaseFirstChar + restOfName;
+alert("Hello" + capitalisedName);
