@@ -69,3 +69,28 @@ alert("Hello" + capitalisedName);
 var dogAge =prompt("How old is your dog?");
 var humanAge = ((dogAge - 2) * 4) + 21;
 alert("Your dog is" + humanAge + "yers old in human years.");
+
+
+function getMilk(){
+  console.log("leaveHouse");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("buyMilk");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("enterHouse");
+}
+
+getMilk();
