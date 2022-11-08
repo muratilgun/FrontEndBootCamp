@@ -71,7 +71,7 @@ var humanAge = ((dogAge - 2) * 4) + 21;
 alert("Your dog is" + humanAge + "yers old in human years.");
 
 
-function getMilk(){
+function getMilk(money){
   console.log("leaveHouse");
   console.log("moveRight");
   console.log("moveRight");
@@ -81,7 +81,8 @@ function getMilk(){
   console.log("moveUp");
   console.log("moveRight");
   console.log("moveRight");
-  console.log("buyMilk");
+  var numberOfBottles = Math.floor(money/1.5);
+  console.log("buy"+numberOfBottles+"Milk");
   console.log("moveLeft");
   console.log("moveLeft");
   console.log("moveDown");
@@ -93,4 +94,4 @@ function getMilk(){
   console.log("enterHouse");
 }
 
-getMilk();
+getMilk(2);
