@@ -151,3 +151,10 @@ function bmiCalculator(weight,height){
 }
 
 console.log(bmiCalculator(65,1.8));
+
+
+var n = Math.random();
+n = n * 6;
+n = Math.floor(n);
+
+console.log(n);
