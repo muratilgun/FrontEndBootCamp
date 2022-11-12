@@ -158,3 +158,15 @@ n = n * 6;
 n = Math.floor(n);
 
 console.log(n);
+
+promt("What is your name?");
+promt("What is their name?");
+
+
+var loveScore = Math.random() * 100;
+loveScore = Math.floor(loveScore) + 1;
+if (loveScore > 70) {
+  alert("Your love score is" + loveScore+"%" + "You love each other like Kanye love Kanye.");
+}else {
+  alert("Your love score is " +loveScore +"%");
+}
