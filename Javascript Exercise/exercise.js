@@ -232,9 +232,47 @@ if (guestList.includes(guestName)) {
 
 
 // FizBuzz
+// var output = [];
+// var count = 1;
+// function fizzBuzz() {
+//         if (count % 3 === 0 &&count % 5 === 0) {
+//     output.push("FizzBuzz");
+//
+//         }
+//  else   if (count % 3 === 0) {
+//     output.push("Fizz");
+//     }
+//     else  if (count % 5 === 0) {
+//     output.push("Buzz");
+//
+//     }
+//   else{
+//     output.push(count);
+//
+//
+//   }
+//     console.log(output);
+//
+//     count++;
+//
+// }
+
+var names = ['Name1','Name2','Name3','Name4','Name5','Name6','Name7'];
+function whosPaying(names) {
+    var numberOfPeople = names.length;
+    var randomPersonPosition = Math.floor(Math.random() * numberOfPeople);
+    var randomPerson = names[randomPersonPosition];
+    return randomPerson + " is going to buy lunch today!";
+}
+
+// While Loop
+
 var output = [];
 var count = 1;
 function fizzBuzz() {
+
+    while (count <=100) {
+
         if (count % 3 === 0 &&count % 5 === 0) {
     output.push("FizzBuzz");
 
@@ -251,8 +289,26 @@ function fizzBuzz() {
 
 
   }
-    console.log(output);
 
     count++;
 
+    }
+    console.log(output);
+
+}
+
+
+function beer() {
+    var numberOfBottles = 99
+while (numberOfBottles >= 0) {
+    var bottleWord = "bottle";
+    if (numberOfBottles === 1) {
+        bottleWord = "bottles";
+    }
+    console.log(numberOfBottles + " " + bottleWord + " of beer on the wall");
+    console.log(numberOfBottles + " " + bottleWord + " of beer,");
+    console.log("Take one down, pass it around,");
+	numberOfBottles--;
+    console.log(numberOfBottles + " " + bottleWord + " of beer on the wall.");
+}
 }
