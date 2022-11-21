@@ -25,3 +25,8 @@
 // document.querySelector("button").classList.toggle("invisible");
 // document.querySelector("h1").innerHTML = "<em>Good Bye</em>"
 // document.querySelector("h1").textContent = "Good Bye";
+
+
+// document.querySelector("a").attributes;
+// document.querySelector("a").getAttribute("href");
+// document.querySelector("a").setAttribute("href","https://www.bing.com");
