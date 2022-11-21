@@ -17,3 +17,11 @@
 // document.querySelector("li.item");
 // querySelectorAll
 // document.querySelectorAll("#list .item")[2].style.color = "blue";
+
+
+
+// document.querySelector("button").classList.add("invisible");
+// document.querySelector("button").classList.remove("invisible");
+// document.querySelector("button").classList.toggle("invisible");
+// document.querySelector("h1").innerHTML = "<em>Good Bye</em>"
+// document.querySelector("h1").textContent = "Good Bye";
