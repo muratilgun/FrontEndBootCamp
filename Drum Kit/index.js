@@ -50,3 +50,11 @@ console.log(this);
 // function calculator(num1, num2, operator) {
 // return operator(num1, num2);
 // }
+
+// Construtor Function
+// function HouseKeeper(yearsOfExperience,name, cleaningRepertoire){
+//   this.yearsOfExperience = yearsOfExperience;
+//   this.name = name;
+//   this.cleaningRepertoire = cleaningRepertoire;
+// }
+// var houseKeeper1 = new HouseKeeper(9,"Tom",["lobby","bedroom"]);
