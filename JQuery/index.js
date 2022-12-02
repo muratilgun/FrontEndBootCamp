@@ -1,4 +1,6 @@
 $(document).ready(function(){
-  $("h1").addClass("big-title margin-50");
+  // $("h1").addClass("big-title margin-50");
 // $("h1").hasClass("margin-50")
+// $("button").html("<em>Hey</em>")
+$("a").attr("href","https://yahoo.com")
 })
