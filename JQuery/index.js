@@ -21,10 +21,23 @@ $(document).ready(function(){
 // $(document).keypress(function(event){
 //     $("h1").text(event.key);
 // });
+//
+// $("h1").on("mouseover",function(){
+//   $("h1").css("color","purple");
+// })
 
-$("h1").on("mouseover",function(){
-  $("h1").css("color","purple");
-})
 
+// $("h1").before("<a>new</a>");
+// <a>new</a><h1>Hello.</h1>
 
+// $("h1").after("<a>new</a>");
+// <h1>Hello.</h1><a>new</a>
+
+// $("h1").prepend("<a>new</a>");
+// <h1><a>new</a>Hello.</h1>
+
+// $("h1").append("<a>new</a>");
+// <h1>Hello.<a>new</a></h1>
+
+// $("a").remove();
 })
